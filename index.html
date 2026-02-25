@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · YoungTekkie</title>
+  <link rel="icon" href="assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/icons/favicon-512.png">
+<meta name="theme-color" content="#2f6dff">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="notice" data-offline-banner>📶 Offline — all lessons still available</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="YoungTekkie home">
+      <img src="assets/img/logo-mascot.png" alt="YoungTekkie mascot">
+      <div>
+        <strong>YoungTekkie</strong>
+        <span>Start small. Think big.</span>
+      </div>
+    </a>
+
+    <button class="btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navPanel">Menu</button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="phase1.html">Phase 1</a>
+      <a href="phase2.html">Phase 2</a>
+      <a href="phase3.html">Phase 3</a>
+      <a href="printable-plan.html">Printable plan</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="support.html">Support</a>
+      <a href="data-policy.html">Data policy</a>
+      <a href="debug.html">Debug</a>
+    </nav>
+  </div>
+
+  <div class="container">
+    <nav id="navPanel" class="nav-panel" data-nav-panel data-open="false" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="phase1.html">Phase 1</a>
+      <a href="phase2.html">Phase 2</a>
+      <a href="phase3.html">Phase 3</a>
+      <a href="printable-plan.html">Printable plan</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="support.html">Support</a>
+      <a href="data-policy.html">Data policy</a>
+      <a href="debug.html">Debug</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="container">
+
+<div class="hero">
+  <video autoplay muted loop playsinline preload="metadata" poster="">
+    <source src="assets/video/hero.mp4" type="video/mp4">
+  </video>
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="content">
+    <div class="inner">
+      <div>
+        <div class="badge"><b>Junior Tech Pathway</b> · learn at home</div>
+        <h1 class="h1">A fun, guided coding journey for children.</h1>
+        <p class="lead">Profiles, progress, phases, printable plans, certificates — all in one place. Built to work smoothly on mobile and desktop.</p>
+        <div class="btns">
+          <a class="btn primary" href="profiles.html">Create a profile</a>
+          <a class="btn" href="phase1.html">Start Phase 1</a>
+          <a class="btn" href="dashboard.html">Parent dashboard</a>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="printable-plan.html">Printable plan</a>
+        <a class="btn" href="certificates.html">Certificates</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="height:18px"></div>
+
+<div class="grid cols-2">
+  <div class="card pad">
+    <div class="kicker">Milestone 0 scaffold</div>
+    <h2 class="section-title">What works right now</h2>
+    <div class="list">
+      <div class="item"><div class="dot"></div><p><b>Stable foundation:</b> one entrypoint, one global contract, versioned storage.</p></div>
+      <div class="item"><div class="dot"></div><p><b>Profiles:</b> create, select and delete learner profiles.</p></div>
+      <div class="item"><div class="dot"></div><p><b>Debug page:</b> quick checks for app init and storage.</p></div>
+    </div>
+  </div>
+
+  <div class="card pad">
+    <div class="kicker">Next up</div>
+    <h2 class="section-title">Milestone 1–2</h2>
+    <div class="list">
+      <div class="item"><div class="dot"></div><p><b>M1:</b> self-host fonts + remove external calls (keeps it offline-ready).</p></div>
+      <div class="item"><div class="dot"></div><p><b>M2:</b> build the Typing Trainer engine and connect it to lessons.</p></div>
+      <div class="item"><div class="dot"></div><p><b>M3:</b> maths engine + question banks.</p></div>
+    </div>
+    <div class="hr"></div>
+    <a class="btn" href="debug.html">Run debug checks</a>
+  </div>
+</div>
+
+  </div>
+</main>
+<footer class="footer">
+  <div class="container" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+    <div>© <span data-year></span> YoungTekkie</div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a href="support.html">Support</a>
+      <a href="data-policy.html">Data policy</a>
+    </div>
+  </div>
+</footer>
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>

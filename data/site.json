@@ -1,0 +1,50 @@
+{
+  "siteName": "YoungTekkie",
+  "tagline": "Start small. Think big.",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Profiles",
+      "href": "profiles.html"
+    },
+    {
+      "label": "Dashboard",
+      "href": "dashboard.html"
+    },
+    {
+      "label": "Phase 1",
+      "href": "phase1.html"
+    },
+    {
+      "label": "Phase 2",
+      "href": "phase2.html"
+    },
+    {
+      "label": "Phase 3",
+      "href": "phase3.html"
+    },
+    {
+      "label": "Printable plan",
+      "href": "printable-plan.html"
+    },
+    {
+      "label": "Certificates",
+      "href": "certificates.html"
+    },
+    {
+      "label": "Support",
+      "href": "support.html"
+    },
+    {
+      "label": "Data policy",
+      "href": "data-policy.html"
+    },
+    {
+      "label": "Debug",
+      "href": "debug.html"
+    }
+  ]
+}
