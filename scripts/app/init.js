@@ -23,9 +23,9 @@ export async function initApp({ page }) {
   window.YTA.storage = await import('./storage.js');
   window.YTA.dom = await import('./dom.js');
 
+  window.YTA.ready = true;
+
   // Page initialisers (Milestone 0)
   if (page === 'profiles') initProfilesPage();
   if (page === 'debug') initDebugPage();
-
-  window.YTA.ready = true;
 }
